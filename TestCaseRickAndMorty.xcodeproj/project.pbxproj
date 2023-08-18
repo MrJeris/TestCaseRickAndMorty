@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D17D1762A9025B500C19F6A /* Launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D17D1752A9025B500C19F6A /* Launchscreen.png */; };
+		8D17D1782A9025EF00C19F6A /* MainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D17D1772A9025EF00C19F6A /* MainScreen.png */; };
+		8D17D17A2A90260B00C19F6A /* DetailScreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D17D1792A90260B00C19F6A /* DetailScreen1.png */; };
+		8D17D17C2A90262700C19F6A /* DetailScreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D17D17B2A90262700C19F6A /* DetailScreen2.png */; };
 		8D3C7F302A8D1D7E0068DE35 /* TestCaseRickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C7F2F2A8D1D7E0068DE35 /* TestCaseRickAndMortyApp.swift */; };
 		8D3C7F342A8D1D7E0068DE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C7F332A8D1D7E0068DE35 /* Assets.xcassets */; };
 		8D3C7F372A8D1D7E0068DE35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C7F362A8D1D7E0068DE35 /* Preview Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D17D1752A9025B500C19F6A /* Launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launchscreen.png; sourceTree = "<group>"; };
+		8D17D1772A9025EF00C19F6A /* MainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreen.png; sourceTree = "<group>"; };
+		8D17D1792A90260B00C19F6A /* DetailScreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailScreen1.png; sourceTree = "<group>"; };
+		8D17D17B2A90262700C19F6A /* DetailScreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailScreen2.png; sourceTree = "<group>"; };
 		8D3C7F2C2A8D1D7E0068DE35 /* TestCaseRickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCaseRickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3C7F2F2A8D1D7E0068DE35 /* TestCaseRickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCaseRickAndMortyApp.swift; sourceTree = "<group>"; };
 		8D3C7F332A8D1D7E0068DE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,9 +63,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D17D1742A90255F00C19F6A /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				8D17D1752A9025B500C19F6A /* Launchscreen.png */,
+				8D17D1772A9025EF00C19F6A /* MainScreen.png */,
+				8D17D1792A90260B00C19F6A /* DetailScreen1.png */,
+				8D17D17B2A90262700C19F6A /* DetailScreen2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		8D3C7F232A8D1D7E0068DE35 = {
 			isa = PBXGroup;
 			children = (
+				8D17D1742A90255F00C19F6A /* Screenshots */,
 				8D3C7F2E2A8D1D7E0068DE35 /* TestCaseRickAndMorty */,
 				8D3C7F2D2A8D1D7E0068DE35 /* Products */,
 			);
@@ -217,7 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3C7F372A8D1D7E0068DE35 /* Preview Assets.xcassets in Resources */,
+				8D17D1782A9025EF00C19F6A /* MainScreen.png in Resources */,
+				8D17D17C2A90262700C19F6A /* DetailScreen2.png in Resources */,
 				8D3C7F342A8D1D7E0068DE35 /* Assets.xcassets in Resources */,
+				8D17D17A2A90260B00C19F6A /* DetailScreen1.png in Resources */,
+				8D17D1762A9025B500C19F6A /* Launchscreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
